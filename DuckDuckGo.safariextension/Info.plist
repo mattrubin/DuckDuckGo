@@ -2,12 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Author</key>
+	<string>Matt Rubin</string>
 	<key>Builder Version</key>
 	<string>8536.30.1</string>
 	<key>CFBundleDisplayName</key>
 	<string>DuckDuckGo</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.duckduckgo</string>
+	<string>me.mattrubin.duckduckgo</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -21,6 +23,8 @@
 		<key>Scripts</key>
 		<dict/>
 	</dict>
+	<key>Description</key>
+	<string>Adds DuckDuckGo search to the address bar.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -28,5 +32,7 @@
 		<key>Website Access</key>
 		<dict/>
 	</dict>
+	<key>Website</key>
+	<string>https://github.com/mattrubin/DuckDuckGo</string>
 </dict>
 </plist>
